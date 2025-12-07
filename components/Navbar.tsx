@@ -1,10 +1,9 @@
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState } from 'react';
 import { Menu, X, Search, ChevronRight, LayoutGrid, Crown, User, Bell, Sun, Moon } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { allCategories, toolsData } from '../data/tools';
 import { CategoryId } from '../types';
-import { Header } from './ui/header-3';
 
 interface NavbarProps {
   setPage: (page: string) => void;
